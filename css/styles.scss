@@ -6,3 +6,13 @@
 body {
     background: #ffe9cc;
 }
+//Stage
+#stage {
+    position: relative;
+}
+
+#stage svg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
