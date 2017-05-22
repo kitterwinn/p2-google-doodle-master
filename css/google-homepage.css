@@ -10,7 +10,8 @@ img.tail1{
     position: absolute;
     height: 20px;
     margin-top:90px;
-    margin-left: 10px;    
+    margin-left: 10px;
+    animation: ;
 }
 img.tail2{  
     position: absolute;
@@ -33,16 +34,75 @@ img.tail5{
     height: 20px;
      margin-top:90px;
     margin-left: 445px}
-img.leg1{}
-img.leg2{}
-img.leg3{}
-img.leg4{}
-img.leg5{}
-img.leg6{}
-img.leg7{}
-img.leg8{}
-img.leg9{}
-img.leg10{}
+img.leg1{ 
+    position: absolute;
+    height: 50px;
+     margin-top:85px;
+    margin-left: 15px;
+     animation: biggie 2s 1s infinite;}
+img.leg2{
+        position: absolute;
+    height: 50px;
+     margin-top:90px;
+    margin-left: 40px;
+     animation: biggie 2s 2s infinite;
+}
+img.leg3{
+        position: absolute;
+    height: 50px;
+     margin-top:85px;
+    margin-left: 140px;
+     animation: biggie 2s 1s infinite;
+}
+img.leg4{
+        position: absolute;
+    height: 50px;
+     margin-top:90px;
+    margin-left: 155px;
+     animation: biggie 2s 2s infinite;
+}
+img.leg5{
+        position: absolute;
+    height: 50px;
+     margin-top:81px;
+    margin-left: 245px;
+     animation: biggie 2s 1s infinite;
+}
+img.leg6{
+        position: absolute;
+    height: 50px;
+     margin-top:90px;
+    margin-left: 265px;
+     animation: biggie 2s 2s infinite;
+}
+img.leg7{
+        position: absolute;
+    height: 50px;
+     margin-top:85px;
+    margin-left: 360px;
+     animation: biggie 2s 1s infinite;
+}
+img.leg8{
+        position: absolute;
+    height: 50px;
+     margin-top:90px;
+    margin-left: 380px;
+     animation: biggie 2s 2s infinite;
+}
+img.leg9{
+        position: absolute;
+    height: 50px;
+     margin-top:85px;
+    margin-left: 460px;
+     animation: biggie 2s 1s infinite;
+}
+img.leg10{
+        position: absolute;
+    height: 50px;
+     margin-top:90px;
+    margin-left: 480px;
+     animation: biggie 2s 2s infinite;
+}
 
 #stage {
     background: white;
@@ -83,4 +143,12 @@ button {
     font-weight: bold;
     padding: .5em 1em;
     text-align: center;
+}
+@keyframes biggie {
+  50% {
+    transform: rotate(-80deg);
+  }
+  100% {transform: (4),
+    rotate(-180deg);
+  }
 }
