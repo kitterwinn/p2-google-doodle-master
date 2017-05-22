@@ -2,6 +2,47 @@
 body{
     background-color: transparent;
 }
+img.Pugs{
+    position: relative;
+    height: 390px;
+}
+img.tail1{
+    position: absolute;
+    height: 20px;
+    margin-top:90px;
+    margin-left: 10px;    
+}
+img.tail2{  
+    position: absolute;
+    height: 20px;
+     margin-top:90px;
+    margin-left: 120px;
+    }
+img.tail3{  
+    position: absolute;
+    height: 20px;
+    margin-top:90px;
+    margin-left: 235px;}
+img.tail4{
+    position: absolute;
+    height: 20px;
+     margin-top:90px;
+margin-left: 345px;}
+img.tail5{
+    position: absolute;
+    height: 20px;
+     margin-top:90px;
+    margin-left: 445px}
+img.leg1{}
+img.leg2{}
+img.leg3{}
+img.leg4{}
+img.leg5{}
+img.leg6{}
+img.leg7{}
+img.leg8{}
+img.leg9{}
+img.leg10{}
 
 #stage {
     background: white;
