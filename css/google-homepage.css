@@ -113,7 +113,20 @@ img.leg10{
     margin-left: 480px;
      animation: biggie 2s 2s infinite;
 }
-
+img.logo{
+    position:absolute;
+    margin-top: 150px;
+    margin-left: 10%;
+    height: 200px;
+    
+}
+img.arm{
+    position: absolute;
+    height: 50px;
+    margin-top:25px;
+    margin-left: -8px;
+    animation:  ups 3s 3s infinite;
+}
 #stage {
     background: white;
     height: 300px;
@@ -172,3 +185,17 @@ button {
   }
 
   }
+@keyframes ups {
+  0% {
+    transform: translateY(10px);
+  }
+  34% {
+    transform: translateY(20px);
+  }
+  37% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
