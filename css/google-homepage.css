@@ -2,10 +2,16 @@
 body{
     background-color: transparent;
 }
+
 img.Pugs{
     position: relative;
     height: 390px;
 }
+img.logo{
+    height: 1000px;
+    margin: 0 0 0 0;   
+}
+
 img.tail1{
     position: absolute;
     height: 20px;
@@ -31,7 +37,7 @@ img.tail4{
     height: 20px;
     margin-top:90px;
     margin-left: 350px;
-    animation: swing .5s 2.5s infinite;}
+    animation: swing 1.5s 2.5s infinite;}
 img.tail5{
     position: absolute;
     height: 20px;
