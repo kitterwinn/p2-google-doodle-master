@@ -10,30 +10,34 @@ img.tail1{
     position: absolute;
     height: 20px;
     margin-top:90px;
-    margin-left: 10px;
-    animation: ;
+    margin-left: 13px;
+    animation: swing 1.5s 1.5s infinite;
 }
 img.tail2{  
     position: absolute;
     height: 20px;
      margin-top:90px;
-    margin-left: 120px;
+    margin-left: 130px;
+    animation: swing 1s 1s infinite;
     }
 img.tail3{  
     position: absolute;
     height: 20px;
     margin-top:90px;
-    margin-left: 235px;}
+    margin-left: 242px;
+    animation: swing 2s 2s infinite;}
 img.tail4{
     position: absolute;
     height: 20px;
-     margin-top:90px;
-margin-left: 345px;}
+    margin-top:90px;
+    margin-left: 350px;
+    animation: swing .5s 2.5s infinite;}
 img.tail5{
     position: absolute;
     height: 20px;
-     margin-top:90px;
-    margin-left: 445px}
+    margin-top:90px;
+    margin-left: 455px;
+    animation: swing 1s 1.5s infinite;}
 img.leg1{ 
     position: absolute;
     height: 50px;
@@ -64,7 +68,7 @@ img.leg4{
 img.leg5{
         position: absolute;
     height: 50px;
-     margin-top:81px;
+     margin-top:83px;
     margin-left: 245px;
      animation: biggie 2s 1s infinite;
 }
@@ -152,3 +156,13 @@ button {
     rotate(-180deg);
   }
 }
+@keyframes swing {
+
+      50% {
+    transform: rotate(30deg);
+  }
+          75% {
+    transform: rotate(0deg);
+  }
+
+  }
